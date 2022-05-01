@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StartActivity">
+    <TextView
+        android:id="@+id/start_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="40dp"
+        android:layout_above="@+id/start_BTN_startButton"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"/>
+    <Button
+        android:id="@+id/start_BTN_startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game (buttons)"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/start_BTN_startSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game (sensors)"
+        android:layout_below="@+id/start_BTN_startButton"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/start_BTN_highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+</RelativeLayout>
