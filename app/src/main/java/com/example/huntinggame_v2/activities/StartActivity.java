@@ -7,11 +7,12 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import com.example.huntinggame_v2.R;
+import com.google.android.material.button.MaterialButton;
 
 public class StartActivity extends AppCompatActivity {
-    private Button start_BTN_startButton;
-    private Button start_BTN_startSensor;
-    private Button start_BTN_highScore;
+    private MaterialButton start_BTN_startButton;
+    private MaterialButton start_BTN_startSensor;
+    private MaterialButton start_BTN_highScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

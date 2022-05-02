@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
             public void onSensorChanged(SensorEvent sensorEvent) {
                 float x = sensorEvent.values[0];
                 float y = sensorEvent.values[1];
-                //x>2 left ; x<-2 right ; y>7 up ; y<5 down
+                //x>2 left ; x<-2 right ; y>9 up ; y<7 down
                 Log.d("ccc", "X= " + x);
                 Log.d("ccc", "Y= " + y);
                 if (x > 2) {
@@ -219,15 +219,15 @@ public class MainActivity extends AppCompatActivity {
             mat[game.getRowItem()][game.getColItem()].setImageResource(R.drawable.cheese);
         }
         game.moveCharacter(direction);
-        mat[game.getRowHunted()][game.getColHunted()].setImageResource(R.drawable.mouse);
-        mat[game.getRowHunter()][game.getColHunter()].setImageResource(R.drawable.cat);
+        mat[game.getRowHunted()][game.getColHunted()].setImageResource(R.drawable.jerry_icon);
+        mat[game.getRowHunter()][game.getColHunter()].setImageResource(R.drawable.tom_icon);
         if (game.isCatch()) {
             //game restart position
             mat[game.getRowHunted()][game.getColHunted()].setImageResource(0);
             mat[game.getRowHunter()][game.getColHunter()].setImageResource(0);
             game.startPosition();
-            mat[game.getRowHunted()][game.getColHunted()].setImageResource(R.drawable.mouse);
-            mat[game.getRowHunter()][game.getColHunter()].setImageResource(R.drawable.cat);
+            mat[game.getRowHunted()][game.getColHunted()].setImageResource(R.drawable.jerry_icon);
+            mat[game.getRowHunter()][game.getColHunter()].setImageResource(R.drawable.tom_icon);
             hearts[game.getLives()].setVisibility(View.INVISIBLE);
             if (game.isGameOver()) {
                 Intent intent = new Intent(MainActivity.this, HighScoreActivity.class);

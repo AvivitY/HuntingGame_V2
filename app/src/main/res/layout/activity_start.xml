@@ -5,35 +5,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F3CD"
     tools:context=".activities.StartActivity">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/start_wallpaper"
+            android:scaleType="fitEnd"/>
+    </FrameLayout>
     <TextView
         android:id="@+id/start_LBL_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome!"
+        android:textStyle="bold"
+        android:textColor="#4A3903"
         android:textSize="40dp"
-        android:layout_above="@+id/start_BTN_startButton"
         android:layout_centerHorizontal="true"
-        android:padding="16dp"/>
-    <Button
+        android:padding="30dp"/>
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/start_BTN_startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Game (buttons)"
-        android:layout_centerInParent="true"/>
-    <Button
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        app:cornerRadius="10dp"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/start_LBL_title"/>
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/start_BTN_startSensor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Game (sensors)"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:layout_below="@+id/start_BTN_startButton"
         android:layout_centerHorizontal="true"/>
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/start_BTN_highScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="High Scores"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
         android:layout_marginBottom="16dp" />
 </RelativeLayout>

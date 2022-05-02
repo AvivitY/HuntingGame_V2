@@ -51,7 +51,6 @@ public class Fragment_Map extends Fragment {
     }
 
     public void gotoLocation(double latitude,double longitude) {
-        //TODO:change to go to marker?
         LatLng latLng = new LatLng(latitude, longitude);
         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, 18);
         map.moveCamera(cameraUpdate);

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F3CD"
     tools:context=".activities.HighScoreActivity">
 
     <LinearLayout
@@ -17,6 +18,9 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:textColor="#4A3903"
             android:text="Score Board"
             android:textSize="32dp" />
 
@@ -41,6 +45,10 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:cornerRadius="10dp"
             android:layout_margin="16dp"
             android:text="Play Again" />
     </LinearLayout>

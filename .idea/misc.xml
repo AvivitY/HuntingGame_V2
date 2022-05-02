@@ -5,11 +5,21 @@
       <map>
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/app_icon.xml" value="0.1" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/arrow.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/down_arrow.xml" value="0.149" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/ic_transparent_background.xml" value="0.1" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/image2vector__1_.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/left4.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/left_arrow.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/right.xml" value="0.1" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/right_arrow.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/up2.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/up3.xml" value="0.149" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/drawable/up_arrow.xml" value="0.149" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/layout/activity_high_score.xml" value="0.1398148148148148" />
-        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/layout/activity_main.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/layout/activity_sensor_game.xml" value="0.1" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/layout/activity_start.xml" value="0.1796875" />
         <entry key="..\:/Users/AvivitYehezkel/AndroidStudioProjects/HuntingGame_V2/app/src/main/res/layout/fragment_list.xml" value="0.1796875" />

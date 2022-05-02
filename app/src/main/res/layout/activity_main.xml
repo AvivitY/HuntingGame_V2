@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F8F3CD"
     tools:context=".activities.MainActivity">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -65,7 +66,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/mouse"/>
+            android:src="@drawable/jerry_icon"/>
         <View style="@style/VerticalDivider"/>
         <ImageView
             android:id="@+id/main_IMG_4"
@@ -179,7 +180,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/cat"/>
+            android:src="@drawable/tom_icon"/>
         <View style="@style/VerticalDivider"/>
 
         <ImageView
@@ -243,9 +244,11 @@
             android:id="@+id/main_BTN_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/up"
+            android:background="#F8F3CD"
+            android:src="@drawable/up_arrow"
             android:scaleType="fitCenter"
-
+            android:paddingTop="8dp"
+            android:paddingStart="8dp"
             android:layout_weight="1"/>
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
@@ -256,14 +259,18 @@
                 android:id="@+id/main_BTN_left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/right"
+                android:src="@drawable/left_arrow"
+                android:background="#F8F3CD"
+                android:paddingVertical="4dp"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"/>
             <ImageButton
                 android:id="@+id/main_BTN_right"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/left"
+                android:src="@drawable/right_arrow"
+                android:background="#F8F3CD"
+                android:paddingVertical="4dp"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -271,7 +278,10 @@
             android:id="@+id/main_BTN_down"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/down"
+            android:paddingStart="8dp"
+            android:paddingBottom="8dp"
+            android:src="@drawable/down_arrow"
+            android:background="#F8F3CD"
             android:scaleType="fitCenter"
             android:layout_weight="1"/>
 
