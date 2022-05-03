@@ -121,16 +121,16 @@ public class MainActivity extends AppCompatActivity {
             public void onSensorChanged(SensorEvent sensorEvent) {
                 float x = sensorEvent.values[0];
                 float y = sensorEvent.values[1];
-                //x>2 left ; x<-2 right ; y>9 up ; y<7 down
+                //x>2 left ; x<-2 right ; y>9 down ; y<7 up
                 Log.d("ccc", "X= " + x);
                 Log.d("ccc", "Y= " + y);
                 if (x > 2) {
                     game.setDirection(GameManager.DIRECTION.LEFT);
                 } else if (x < -2) {
                     game.setDirection(GameManager.DIRECTION.RIGHT);
-                } else if (y > 9) {
-                    game.setDirection(GameManager.DIRECTION.UP);
                 } else if (y < 7) {
+                    game.setDirection(GameManager.DIRECTION.UP);
+                } else if (y > 9) {
                     game.setDirection(GameManager.DIRECTION.DOWN);
                 }
             }
